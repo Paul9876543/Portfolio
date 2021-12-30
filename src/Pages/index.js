@@ -1,5 +1,5 @@
-import Acomplishments from "../Components/Accomplishments/accomplishments";
-import BgAnimation from "../Components/BackgrooundAnimation/backgroundAnimation";
+import Accomplishments from "../Components/Accomplishments/accomplishments";
+import BackgroundAnimation from "../Components/BackgroundAnimation/backgroundAnimation";
 import Hero from "../Components/Hero/hero";
 import Projects from "../Components/Projects/projects";
 import Technologies from "../Components/Technologies/technologies";
@@ -10,10 +10,10 @@ import { Section } from "../styles/GlobalComponents";
 const Home = () => {
   return (
     <Layout>
-      {/* <Section grid> */}
-      <Hero />
-      {/* <BgAnimation /> */}
-      {/* </Section> */}
+      <Section grid>
+        <Hero />
+        <BackgroundAnimation />
+      </Section>
       <Projects />
       <Technologies />
       <Timeline />
