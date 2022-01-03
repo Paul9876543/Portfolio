@@ -57,7 +57,11 @@ const Timeline = () => {
   //   window.addEventListener('resize', handleResize);
   // }, []);
 
-  return <div>Timeline</div>;
+  return (
+    <Section id="about">
+      <SectionTitle>About Me</SectionTitle>
+    </Section>
+  );
 };
 
 export default Timeline;
