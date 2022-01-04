@@ -6,6 +6,7 @@ import {
   SectionTitle,
 } from "../../Styles/GlobalComponents";
 import { Box, Boxes, BoxNum, BoxText } from "./AccomplishmentsStyles";
+import Button from "../../Styles/GlobalComponents/button";
 
 // const data = [
 //   { number: 20, text: "Open Source Projects" },
@@ -28,6 +29,9 @@ const Accomplishments = () => (
         </Box>
       ))}
     </Boxes> */}
+    <Button onClick={() => (window.location = "https://google.com")}>
+      Download
+    </Button>
   </Section>
 );
 

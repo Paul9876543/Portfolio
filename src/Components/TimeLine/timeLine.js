@@ -69,7 +69,11 @@ const Timeline = () => {
       <br />
       <br />
       <SectionTitle>About Me</SectionTitle>
-      <SectionText>How I learnt coding!!!</SectionText>
+      <SectionText>
+        My journey has been anything but straight. This curved process has
+        created a variety of skills I am able to apply to any position and task
+        at hand.
+      </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (

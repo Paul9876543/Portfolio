@@ -21,7 +21,8 @@ const Technologies = () => (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I"ve worked with a range of technologies. FULL STACK BABY!
+      I"ve worked with a range of technologies. FULL STACK BABY! There is still
+      so much to learn.
     </SectionText>
     <List>
       <ListItem>
